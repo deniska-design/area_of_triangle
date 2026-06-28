@@ -23,7 +23,7 @@ Installation:
 
 1. Clone the Repository
 ```
-git clone [https://github.com/deniska-design/area_of_triangle.git](https://github.com/deniska-design/area_of_triangle.git)
+git clone https://github.com/deniska-design/area_of_triangle.git
 ```
 ```
 cd area_of_triangle

@@ -6,16 +6,16 @@ A low-level, bare-metal 32-bit x86 Assembly program designed for Linux environme
 
 Features:
 
-100% Pure Assembly: Built completely from scratch using Intel x86 assembly instructions and direct Linux system calls (`SYS_WRITE`, `SYS_READ`, `SYS_EXIT`).
-Custom Low-Level I/O: Features a custom routine (`read_two_digit_num`) that reads raw ASCII strings from the terminal, filters character boundaries, and converts them into numbers for mathematical processing.
-No Dependencies: Does not link against `printf`, `scanf`, or any external libraries. Memory allocation, stack manipulation, and kernel communication are handled via custom macro architectures.
+* **100% Pure Assembly:** Built completely from scratch using Intel x86 assembly instructions and direct Linux system calls (`SYS_WRITE`, `SYS_READ`, `SYS_EXIT`).
+* **Custom Low-Level I/O:** Features a custom routine (`read_two_digit_num`) that reads raw ASCII strings from the terminal, filters character boundaries, and converts them into numbers for mathematical processing.
+* **No Dependencies:** Does not link against `printf`, `scanf`, or any external libraries. Memory allocation, stack manipulation, and kernel communication are handled via custom macro architectures.
 
 ---
 
 Technical Bounds:
 
-Input Limitations: The custom parsing engine is tailored specifically to accept and compute up to 2-digit integer* for both the base and the height of the triangle.
-Output Limitations: Numerical results are designed to match the 2-digit processing constraints of the custom display buffers.
+* **Input Limitations:** The custom parsing engine is tailored specifically to accept and compute **up to 2-digit integers** for both the base and the height of the triangle.
+* **Output Limitations:** Numerical results are designed to match the 2-digit processing constraints of the custom display buffers.
 
 ---
 
